@@ -349,7 +349,8 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-justified" style="text-align: left;">
-      Following are examples with GAN-inversion and reenactment with model trained with 63, 127, and 255 sinusoids.The video contains audio. We notify that the dialogues being spoken were absent from the training set. Meaning the input video sequences for the GAN-inversion were never seen during the training. However, we are able to successfully recover the motion of the lips while the person recites the unread sentences.</h2>
+      Following are examples with GAN-inversion and re-enactment with model trained with 63, 127, and 255 sinusoids.The video contains audio. We notify that the dialogues being spoken were absent from the training set. Meaning the input video sequences for the GAN-inversion were never seen during the training. 
+      However, we are able to successfully recover the motion of the lips eventhough the person is reciting unread sentences.</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video3">
           <video poster="" id="video2" autoplay controls muted loop height="50%">\
@@ -357,7 +358,9 @@
             <source src="static/videos/invert/011-64.webm"
             type="video/mp4">
           </video>
-
+          <h2 class="subtitle has-text-centered">
+          <b>With 63 sinusoidal bases</b>; Left panel: Real video; Right panel (top-left): Inverted video; Rest of them are re-enactments using the optimized temporal style vector(m_t).
+        </h2>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="50%">\
@@ -365,6 +368,9 @@
             <source src="static/videos/invert/011-128.webm"
             type="video/mp4">
           </video>
+          <h2 class="subtitle has-text-centered">
+          <b>With 127 sinusoidal bases</b>; Left panel: Real video; Right panel (top-left): Inverted video; Rest of them are re-enactments using the optimized temporal style vector(m_t).
+        </h2>
         </div>
         <div class="item item-video4">
           <video poster="" id="video4" autoplay controls muted loop height="50%">\
@@ -372,6 +378,9 @@
             <source src="static/videos/invert/011-256.webm"
             type="video/mp4">
           </video>
+          <h2 class="subtitle has-text-centered">
+          <b>With 255 sinusoidal bases</b>; Left panel: Real video; Right panel (top-left): Inverted video; Rest of them are re-enactments using the optimized temporal style vector(m_t).
+        </h2>
         </div>
       </div>
     </div>
